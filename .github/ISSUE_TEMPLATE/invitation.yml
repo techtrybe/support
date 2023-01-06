@@ -1,0 +1,30 @@
+name: Invitation to the TechTrybe
+description: I would like to be part of this awesome community
+title: "Please invite me to join TechTrybe"
+labels: [i want to join the community]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: What's your name?
+      placeholder: Insert your name here
+    validations:
+      required: true
+  - type: input
+    id: discordusername
+    attributes:
+      label: Discord Username (if applicable) E.g Madflows#412
+      placeholder: Insert your Discord username here
+    validations:
+      required: false
+  - type: textarea
+    id: Additional
+    attributes:
+      label: Questions & suggestions?
+      description: Do you have any question or suggestion to share with us?
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this form! You can join our whatsapp group [Whatsapp](https://chat.whatsapp.com/HlIjg2kPxIOAOyG1Sbcm9H) if you haven't already. You can also check out cool repositories under TechTrybe [here](https://github.com/techtrybe/support)
